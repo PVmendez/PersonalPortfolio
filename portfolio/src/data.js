@@ -1,16 +1,23 @@
+import { FiLinkedin, FiGithub, FiMail, FiMapPin } from "react-icons/fi";
+
 import {
-  FiLinkedin,
-  FiGithub,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
-  FiMail,
-  FiMapPin,
-} from "react-icons/fi";
+  SiMongodb,
+  SiPostgresql,
+  SiExpress,
+  SiRedux,
+  SiGit,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiReact,
+  SiNodedotjs,
+  SiTailwindcss,
+  SiBootstrap,
+} from "react-icons/si";
 
 import HackShop from "./assets/HackShop.png";
 import nataliePortfolio from "./assets/NataliePortfolio.png";
+import Twitter from "./assets/twitter.png";
 
 export const navigation = [
   {
@@ -24,10 +31,6 @@ export const navigation = [
   {
     name: "portfolio",
     href: "portfolio",
-  },
-  {
-    name: "services",
-    href: "services",
   },
   {
     name: "contact",
@@ -46,71 +49,101 @@ export const social = [
   },
 ];
 
+export const skills = [
+  {
+    icon: <SiHtml5 />,
+  },
+  {
+    icon: <SiCss3 />,
+  },
+  {
+    icon: <SiJavascript />,
+  },
+  {
+    icon: <SiNodedotjs />,
+  },
+  {
+    icon: <SiExpress />,
+  },
+  {
+    icon: <SiReact />,
+  },
+  {
+    icon: <SiRedux />,
+  },
+  {
+    icon: <SiPostgresql />,
+  },
+  {
+    icon: <SiGit />,
+  },
+  {
+    icon: <SiMongodb />,
+  },
+  {
+    icon: <SiBootstrap />,
+  },
+  {
+    icon: <SiTailwindcss />,
+  },
+];
+
 export const projectsData = [
   {
     id: "1",
     image: HackShop,
     name: "HackShop Chocolate",
     category: "Web Development",
+    href: "https://hackshop-client.vercel.app/",
+    repo: "https://github.com/PVmendez/E-Commerce_Client",
+    description: "React JS, Redux, NodeJS, Express, HTML, CSS, Javascript, SQL, Github y Boostrap",
   },
   {
     id: "2",
     image: nataliePortfolio,
-    name: "Fashion Portfolio ",
+    name: "Fashion Portfolio",
     category: "UI/UX Design",
+    href: "http://www.nataliecederbaum.tk/",
+    repo: "https://github.com/PVmendez/Repo-Portfolio",
+    description: "HTML, CSS y Javascript",
+  },
+  {
+    id: "3",
+    image: Twitter,
+    name: "Twitter Clon",
+    category: "Repositories",
+    href: "",
+    repo: "https://github.com/PVmendez/ejercicio_twitter",
+    description: "HTML, CSS, Javascript, EJS, NodeJS, Express, MongoDB, Github y Boostrap",
   },
 ];
 
 export const projectsNav = [
   {
-    name: "all",
+    name: "All",
   },
   {
     name: "UI/UX Design",
   },
   {
-    name: "web development",
-  },
-];
-
-export const services = [
-  {
-    icon: <FiLayout />,
-    name: "Web Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-  {
-    icon: <FiSettings />,
     name: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
   },
   {
-    icon: <FiPenTool />,
-    name: "Branding",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
-  },
-  {
-    icon: <FiTag />,
-    name: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+    name: "Repositories",
   },
 ];
 
 export const contact = [
   {
     icon: <FiMail />,
-    title: "Have a question?",
-    subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    title: "¿Tienes alguna duda?",
+    subtitle: "Estoy aqui para resolverla",
+    description: "valentino.mendez.rey@gmail.com",
   },
   {
     icon: <FiMapPin />,
-    title: "Current Location",
-    subtitle: "Bucharest, Romania",
-    description: "Serving clients worldwide",
+    title: "Localización",
+    subtitle: "Montevideo, Uruguay",
+    description: "",
   },
 ];

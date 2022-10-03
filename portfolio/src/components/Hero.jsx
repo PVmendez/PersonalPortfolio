@@ -1,5 +1,6 @@
 import React from "react";
 import Pablo from "../assets/Pablo.png";
+import "./Hero.css"
 
 export const Hero = () => {
   return (
@@ -17,15 +18,19 @@ export const Hero = () => {
               Desarrollador <br /> Full Stack Jr.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+              "Luego de mi primera experiencia laboral, decidí por cuál camino
+              quería seguir, el desarrollo full stack, algo que me permitiría
+              conocer un gran número de tecnologías y crear sin límites con
+              ellas"
             </p>
             <button className="btn btn-md bg-red-600 hover:bg-secondary-hover md:btn-lg transition-all">
               Contactame
             </button>
           </div>
-          <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img src={Pablo} alt="" />
+          <div className="hidden lg:flex flex-1 justify-end items-center h-full ">
+            <div className="img-hero ">
+              <img className="" src={Pablo} alt="" />
+            </div>
           </div>
         </div>
       </div>

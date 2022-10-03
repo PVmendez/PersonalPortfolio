@@ -1,0 +1,13 @@
+.skills svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 20px;
+  fill: #dc2626;
+}
+
+.skills-project svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 20px;
+  fill: #dc2626;
+}
