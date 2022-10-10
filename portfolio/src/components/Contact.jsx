@@ -39,9 +39,7 @@ export const Contact = () => {
             Contactame
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus voluptas, quod delectus ea ullam distinctio
-            exercitationem sint ipsa enim! Ullam?
+          Por aquí puedes mandarme un mensaje si te surge alguna duda sobre los proyectos o sobre mí.
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row maxlg:items-center">

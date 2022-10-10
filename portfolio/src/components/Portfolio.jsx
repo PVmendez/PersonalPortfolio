@@ -10,8 +10,7 @@ export const Portfolio = () => {
             Mis proyectos
           </h2>
           <p className="subtitle">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            autem sit odit amet impedit in voluptates numquam tempora, ad rerum?
+          Aquí están algunos de los proyectos que he realizado últimamente y los que iré agregando al paso de que vaya realizando próximamente.
           </p>
         </div>
         <Projects/>
