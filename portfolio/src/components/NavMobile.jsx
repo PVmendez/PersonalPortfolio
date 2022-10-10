@@ -65,7 +65,7 @@ export const NavMobile = () => {
         </div>
         {navigation.map((item, index) => {
           return (
-            <li key={index} className="mb-8">
+            <li key={index} className="mb-8 text-[20px]">
               <Link
                 to={item.href}
                 smooth={true}

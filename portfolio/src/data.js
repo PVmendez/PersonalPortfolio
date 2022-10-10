@@ -40,11 +40,11 @@ export const navigation = [
 
 export const social = [
   {
-    icon: <FiLinkedin />,
+    icon: <FiLinkedin className="h-6 w-6" />,
     href: "",
   },
   {
-    icon: <FiGithub />,
+    icon: <FiGithub className="h-6 w-6" />,
     href: "",
   },
 ];
