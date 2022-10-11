@@ -19,7 +19,7 @@ export const About = () => (
             <hr className="mb-8 opacity-5" />
             <p className="mb-8">
               Me integre en este mundo en el 2018 como estudiante de ÁNIMA
-              Bachillerato Tecnológico dónde me formé en diversas área buscando
+              Bachillerato Tecnológico dónde me formé en diversas áreas buscando
               cual era la que más disfrutaba. En la actualidad soy estudiante en
               la Universidad Católica del Uruguay en la cuál sigo
               desarrollándome cómo ingeniero en distintas materias que me siguen
